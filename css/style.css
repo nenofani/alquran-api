@@ -1,0 +1,36 @@
+* {
+  font-family: "Uthmani", serif;
+}
+
+.navbar {
+  background-color: #055d7c;
+  height: 125px;
+  font-weight: bolder;
+}
+
+.navbar-surat {
+  background-color: #055d7c;
+  height: 60px;
+  font-weight: bolder;
+}
+
+.card-surat {
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.card-surat:hover {
+  background-color: #b4ced8;
+}
+
+@font-face {
+  font-family: "Uthmani";
+  src: url("css/font/UthmanicHafs1Ver09.otf") format("truetype");
+}
+
+.arabic {
+  font-size: 28px;
+  font-weight: normal;
+  padding: 0 5px;
+  margin: 0;
+}
