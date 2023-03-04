@@ -23,7 +23,7 @@ function getSurat() {
       //judul surat
       const judulSurat = document.querySelector(".judul-surat");
       const cardJudulSurat = `
-      <strong class="text-xl text-center">${response.nama_latin}. ${response.nama_latin} - ${response.nama}</strong>
+      <strong class="text-xl text-center">${response.nomor}. ${response.nama_latin} - ${response.nama}</strong>
       <p>${response.arti} (${response.jumlah_ayat} ayat)</p>
       <button class="audio-button-play text-white bg-cyan-800 hover:bg-cyan-600 rounded-lg text-sm px-2 py-2.5 mt-3 text-center inline-flex items-center">
         <svg aria-hidden="true" class="w-5 h-5 mr-2 -ml-1" fill="currentColor" viewBox="-4 -2 20 20" xmlns="http://www.w3.org/2000/svg">

@@ -16,11 +16,12 @@
 
 .card-surat {
   cursor: pointer;
-  transition: 0.7s;
+  transition: 0.5s;
 }
 
 .card-surat:hover {
-  background-color: #b4ced8;
+  background-color: #1e6d89;
+  color: white;
 }
 
 @font-face {
